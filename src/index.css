@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+  
+.navbar {
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+  background-color: #2b2b2b;
+}
+  
+header {
+  padding: 100px 0; 
+}
+
+.navbar li {
+  margin-right: 50px;
+  margin-top: 10px;
+}
+  
+.person-card {
+  border-radius: 20px;
+  margin: 20px;
+  padding: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+  
+.person-card img {
+  width: 250px;
+  border-radius: 10px;
+}
+  
+.person-card .social-icons a {
+  margin-right: 15px;
+  color: rgb(170, 168, 168);
+}
+  
+.person-card .social-icons a:hover {
+  color: rgb(255, 255, 255);
+}

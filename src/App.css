@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000ec !important;
+  color: #c5c5c5;
+  margin: 0;
+}
+
+h1 {
+  margin-left: 40px;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  background-color:rgb(31, 31, 31); 
+  display: inline-block;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 3px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-family: 'Abril Fatface', cursive;
+  background-color:rgb(31, 31, 31); 
+  letter-spacing: 3px;
+}
+
+.navbar {
+  background-color: rgb(71, 71, 71);
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-left: auto;
+}
+
+p {
+  color: rgb(255, 255, 255, 0.836);
+  font-weight: bolder;
+  font-size: 21px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  width: 100px;
+  margin-right:auto;
+}
